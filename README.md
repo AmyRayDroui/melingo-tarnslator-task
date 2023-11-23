@@ -22,12 +22,12 @@ python manage.py import_csv Entriesnodu.csv Examples.csv
 ```
 python manage.py runserver
 ```
-3. Install the dependencies for the Frontend:
+5. Install the dependencies for the Frontend:
 ```
 cd frontend
 npm install
 ```
-4. Run the Frontend:
+6. Run the Frontend:
 ```
 npm run start
 ```
