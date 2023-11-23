@@ -1,5 +1,5 @@
 # Melingo Tarnslator Task
-This web app allows users to see the translation of words into Spanish with some examples
+This web app allows users to see the translation of words into Spanish with some examples.
 
 ## Getting Started
 ### Using Code
@@ -38,14 +38,15 @@ npm run start
 docker pull amyray/melingo-api
 docker pull amyray/melingo-web
 ```
-2. Run images:
-   Either by Docker Desktop with melingo-api port:8000 and  melingo-web port:3000 or
+2. Run images, either by Docker Desktop with melingo-api port:8000 and  melingo-web port:3000 or:
 ```
 docker run -p 8000:8000 amyray/melingo-api
 docker run -p 3000:3000 amyray/melingo-web
 ```
 
+
 The server will be available at http://localhost:8000.
+
 The web app will be available at http://localhost:3000.
 
 ## Dependencies
