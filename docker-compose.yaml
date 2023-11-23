@@ -1,0 +1,18 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.back
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/backend
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.front
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/frontend
