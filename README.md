@@ -44,6 +44,17 @@ docker run -p 8000:8000 amyray/melingo-api
 docker run -p 3000:3000 amyray/melingo-web
 ```
 
+### Using Docker Compose
+
+1. Clone the repository:
+```
+git clone https://github.com/AmyRayDroui/melingo-tarnslator-task.git
+```
+2. Run docker-compose:
+```
+docker-compose up
+```
+
 
 The server will be available at http://localhost:8000.
 
