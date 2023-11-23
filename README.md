@@ -55,5 +55,5 @@ The web app will be available at http://localhost:3000.
 ### Backend
 * Django
 ### Frontend
-* react
-* tailwind
+* React
+* TailwindCSS
