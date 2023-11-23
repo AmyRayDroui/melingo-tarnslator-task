@@ -7,7 +7,7 @@ note: installation may change a bit on different operating systems
 
 1. Clone the repository:
 ```
-https://github.com/AmyRayDroui/melingo-tarnslator-task.git
+git clone https://github.com/AmyRayDroui/melingo-tarnslator-task.git
 ```
 2. Install Backend dependencies:
 ```
